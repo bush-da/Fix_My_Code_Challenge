@@ -16,12 +16,16 @@ class Square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """ Calculate the permiter of square """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """ string representation """
         return "{}/{}".format(self.width, self.height)
 
+
 if __name__ == "__main__":
+    """ testing the class """
 
     s = Square(width=12, height=9)
     print(s)
