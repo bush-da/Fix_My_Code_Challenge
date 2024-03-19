@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+"""
+Module defining a square class
+"""
 
 class Square():
-    """ The Square class """
-
+    """
+    The Square class
+    """
     width = 0
     height = 0
 
@@ -26,7 +30,6 @@ class Square():
 
 if __name__ == "__main__":
     """ testing the class """
-
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
