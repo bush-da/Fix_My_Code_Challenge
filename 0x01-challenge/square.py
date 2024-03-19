@@ -3,6 +3,7 @@
 Module defining a square class
 """
 
+
 class Square():
     """
     The Square class
@@ -11,7 +12,7 @@ class Square():
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ initializing an object """
+        """initializing an object"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
